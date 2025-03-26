@@ -1,0 +1,34 @@
+# 密钥文件（敏感信息）
+key.bin
+*.key
+
+# 数据目录（用户数据）
+/data/
+
+# 日志文件
+/logs/
+
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE配置文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
